@@ -1,55 +1,44 @@
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Basic styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
+    background-color: #003366;
+    color: white;
+    padding: 1em;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
+nav {
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
 
-nav ul li {
-  margin-right: 1rem;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+section {
+    padding: 2em;
 }
 
-.hero {
-  background-color: #f4f4f4;
-  padding: 2rem;
-  text-align: center;
+#stickGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.products {
-  padding: 2rem;
+#contactForm {
+    margin: 0 auto;
+    width: 50%;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    margin-bottom: 1em;
 }
